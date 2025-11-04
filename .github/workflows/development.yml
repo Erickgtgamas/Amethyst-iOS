@@ -19,7 +19,7 @@ jobs:
           - platform: 2
             platform_name: ios
     
-    runs-on: mac-latest
+    runs-on: macos-12
     steps:
       - name: Remove work folders
         run: |
