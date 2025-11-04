@@ -27,7 +27,8 @@ jobs:
           rm -rf ./.??* || true
           echo "after"
           ls -lah ./
-
+       - name: Install GNU Make (gmake)
+        run: brew install make
       - name: Checkout repository
         uses: actions/checkout@main
 
